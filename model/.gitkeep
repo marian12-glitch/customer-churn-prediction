@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts
+model/*.joblib
+model/*.pkl
+
+# Data (comment out if you want to push the CSV)
+data/
+
+# OS
+.DS_Store
+Thumbs.db
