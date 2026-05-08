@@ -45,7 +45,7 @@ export default function App() {
     setLoading(true);
     setError(null);
     try {
-      const response = await axios.post("http://127.0.0.1:8000/predict", form);
+      const response = await axios.post("https://customer-churn-prediction-1200.onrender.com/predict", form);
       setResult(response.data);
     } catch (err) {
       setError("Failed to get prediction. Is the API running?");
