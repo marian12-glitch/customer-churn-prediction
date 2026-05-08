@@ -3,7 +3,7 @@
 A machine learning system that predicts customer churn using a Scikit-learn Pipeline, 
 with a FastAPI endpoint serving live predictions.
 
-![CI](https://github.com/marian12-glitch/customer-churn-prediction/workflows/CI/badge.svg)
+![CI](https://github.com/marian12-glitch/customer-churn-prediction/actions/workflows/ci.yaml/badge.svg)
 
 ## Live API
 > URL will be added after deployment on Render
