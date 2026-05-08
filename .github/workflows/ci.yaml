@@ -19,7 +19,8 @@ jobs:
           python-version: "3.10"
 
       - name: Install dependencies
-        run: pip install fastapi uvicorn joblib scikit-learn xgboost numpy pytest
+        run: pip install fastapi uvicorn joblib scikit-learn==1.8.0 xgboost numpy pytest
 
       - name: Run tests
         run: pytest tests/ -v
+
