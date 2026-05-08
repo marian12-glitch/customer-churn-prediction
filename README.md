@@ -35,6 +35,11 @@ with a FastAPI endpoint serving live predictions and a React frontend.
 - Fiber optic internet customers show higher churn tendency
 - Engineered feature `income_per_tenure` ranked 7th out of 26 features
 
+## Live Demo
+- **Frontend:** https://customerchurnpredictionsite.netlify.app
+- **API:** https://customer-churn-prediction-1200.onrender.com
+- **API Docs:** https://customer-churn-prediction-1200.onrender.com/docs
+
 ## How to Run Locally
 ```bash
 pip install -r requirements.txt
